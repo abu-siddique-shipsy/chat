@@ -1,0 +1,114 @@
+body{
+	padding: 20px;
+	background: #fefefe;
+	/*min-height: 100%;*/
+	/*width: 100%;*/
+}
+.admin-container{
+	padding: 20px;
+	margin-left: 200px;
+	
+}
+.detailed-chat{
+	position: absolute;
+	height: 500px;
+	width: 700px;
+	border-style: inset;
+	border-width: 1px;
+	right: 100px;
+	top: 100px;
+	border-radius: 10px;
+	overflow: auto;
+}
+.chat-container{
+	font-size: 13px;
+	padding: 2px;
+	line-height: 35px;
+	border-radius: 10px;
+	max-height: 100px;
+	width: 200px;
+	border-style: inset;
+	border-width: 2px;
+	margin: 12px 12px 22px 12px;
+}
+.chats{
+	max-height: 500px;
+	overflow: auto;
+	width: 300px;
+}
+.replyBar{
+	width: 99%;
+	position: absolute;
+	bottom: 0;
+	border-radius: 10px;
+	height: 40px;
+	font-size: 90%;
+}
+
+.chat-container:hover{
+	transform: scale(1.04);
+}
+.chat-header{
+	padding: 0px 5px 5px 5px;
+	border-style: inset;
+	border-width: 0px;
+	border-bottom-width: 1px;
+	border-color: #000000;
+}
+.chat-from:before {
+	color: grey;
+   content: "From: ";
+}
+.chat-message:before {
+	color: grey;
+   content: "Message: ";
+}
+.chat-body{
+	padding: 0px 5px 5px 5px;
+
+}
+.sent-msg{
+	text-align: right;
+	margin: 10px 10px 10px 380px;
+	background: green;
+	border-style: inset;
+	border-radius: 10px;
+	border-width:1px;
+	padding: 10px;
+	color: white;
+	
+}
+
+.got-msg{
+	padding: 10px;
+	margin: 10px 380px 10px 10px;
+	color: white;
+	background: blue;
+	border-style: inset;
+	border-radius: 10px;
+	border-width:1px;
+	
+	
+}
+.sent-msg p{
+	font-family: Comic Sans MS;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0px 0px 0px 0px;
+	/*padding: 10px;*/
+	/*position: absolute;*/
+	/*top: 20px;*/
+	/*right: 20px;*/
+	/*float: right;*/
+	/*height: 40px;*/
+	
+	
+}
+.got-msg p{
+	font-family: Comic Sans MS;
+	font-size: 18px;
+	font-weight: 400;
+	
+	
+	
+}
